@@ -10,10 +10,8 @@
         <p>Tem certeza que deseja remover o gênero ${genero.nome}</p>
         <form action="/generos/delete" method="post">
             <input type="hidden" name="id" value="${genero.id}" />
-           
             <a href="/generos/list">Voltar</a>
             <button type="submit">Remover</button>
         </form>
     </body>
 </html>
-
