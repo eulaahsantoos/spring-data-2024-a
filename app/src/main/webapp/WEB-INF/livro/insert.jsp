@@ -20,7 +20,7 @@
                 <label class="form-label"> Gênero:</label>
                 <select name="genero" class="form-select">
                 <c:forEach var="item" items="${generos}" >
-                    <option value="$ {item.id}">${item.nome}</option>
+                    <option value="${item.id}">${item.nome}</option>
                     </c:forEach>
                 </select>
             </div>

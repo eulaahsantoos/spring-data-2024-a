@@ -12,7 +12,7 @@
         <div class="container">
         
         <h1>Livros</h1>
-            <a href="/livro/insert" class="btn btn-primary"> Novo Livro</a>
+            <a href="/livros/insert" class="btn btn-primary"> Novo Livro</a>
             <table class="table">
                 <tr>
                     <th>Id</th>
