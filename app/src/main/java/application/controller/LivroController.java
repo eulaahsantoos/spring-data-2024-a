@@ -15,7 +15,7 @@ import application.repository.GeneroRepository;
 import application.repository.LivroRepository;
 
 @Controller
-@RequestMapping("/livros")
+@RequestMapping(value = {"/", "/livros"})
 
 public class LivroController {
     @Autowired

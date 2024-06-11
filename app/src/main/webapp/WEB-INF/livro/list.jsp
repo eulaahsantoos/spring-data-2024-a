@@ -9,6 +9,7 @@
 
     </head>
     <body>
+        <%@ include file = "../_templates/navbar.jsp" %>
         <div class="container">
         
         <h1>Livros</h1>
